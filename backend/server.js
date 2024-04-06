@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express()
 app.use(cors({
     credentials: true, // Allows cookies to be sent from client to server
-    origin: 'http://13.201.8.82:3000', // Whitelist the origin of your frontend application
+    origin: 'http://13.201.17.98:3000', // Whitelist the origin of your frontend application
   }));
   
 app.use(express.json())
