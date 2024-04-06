@@ -13,7 +13,7 @@ function Login2() {
     e.preventDefault();
     
     try {
-      const response = await axios.post('http://localhost:5000/login', {
+      const response = await axios.post('http://13.201.8.82:5000/login', {
         email: email,
         password: password
       });

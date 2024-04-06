@@ -41,7 +41,7 @@ const RegistrationForm = () => {
 
     try {
       // Send POST request to backend to save registration data
-      const response = await axios.post('http://localhost:5000/registration', values);
+      const response = await axios.post('http://13.201.8.82:5000/registration', values);
       console.log(response.data);
       window.alert("Registered Successfully!");
       document.getElementById('login-link').click();
