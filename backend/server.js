@@ -18,8 +18,8 @@ app.use(session({
 }));
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'krgdb.cpw0wmeou0z1.eu-north-1.rds.amazonaws.com',
+    host: 'krg-db.chk26aioonln.eu-north-1.rds.amazonaws.com',
+    user: 'root',
     password: '12345678',
     database: 'krg'
 })
